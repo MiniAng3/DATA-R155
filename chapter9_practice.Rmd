@@ -1,0 +1,13 @@
+---
+title: "Chapter 9 Practice"
+output: html_notebook
+---
+
+## Loading the Data
+
+This section loads the Values_Transport_dplace dataset from the data folder into R using the readr package.
+
+```{r}
+library(readr)
+dplace_df <- read_csv("data/Values_Transport_dplace.csv")
+```
